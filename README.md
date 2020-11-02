@@ -23,9 +23,13 @@ $ npm start
 Server is listening in port ``5000`` for default.
 ## Endpoints
 ### Obtain all products
-```GET http://localhost:5000/api/products```
+```
+GET http://localhost:5000/api/products
+```
 ### Create new product
-```POST http://localhost:5000/api/products/create```
+```
+POST http://localhost:5000/api/products/create
+```
 Need pass JSON object:
 ```json
 {
@@ -36,7 +40,9 @@ Need pass JSON object:
 }
 ```
 ### Update product
-```PUT http://localhost:5000/api/products/update/:id```
+```
+PUT http://localhost:5000/api/products/update/:id
+```
 Need pass JSON object:
 ```json
 {
@@ -47,4 +53,6 @@ Need pass JSON object:
 }
 ```
 ### Delete product
-```DELETE http://localhost:5000/api/products/delete/:id```
+```
+DELETE http://localhost:5000/api/products/delete/:id
+```
