@@ -2,7 +2,7 @@
 
 ## Usage
 
-First is needed install all dependencies...
+First you needed install all dependencies...
 
  
 ```bash
@@ -16,11 +16,11 @@ If you want compile to ECMAScript 5 then run ...
 ```bash
 $ npm run build
 ```
-... and start.
+... and run start.
 ```bash
 $ npm start
 ```
-Server is listening in port ``5000`` for default.
+Server is listening on port ``5000`` by default.
 ## Endpoints
 ### Obtain all products
 ```
@@ -30,7 +30,7 @@ GET http://localhost:5000/api/products
 ```
 POST http://localhost:5000/api/products/create
 ```
-Need pass JSON object:
+Need pass a JSON object:
 ```json
 {
 	"name": "Example name",
@@ -43,7 +43,7 @@ Need pass JSON object:
 ```
 PUT http://localhost:5000/api/products/update/:id
 ```
-Need pass JSON object:
+Need pass a JSON object:
 ```json
 {
 	"name": "Example name",
